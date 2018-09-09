@@ -27,5 +27,6 @@ class MusicLibraryController
     Songs.all.sort_by{|s| s.name}.each_with_index{|a, i|
       puts "#{i+1} #{a.artist.name}. - #{a.song.name} - #{a.song.genre}"
     }
+  end
   
 end
