@@ -61,10 +61,9 @@ class MusicLibraryController
         puts "#{i+1}. #{a.artist.name} - #{a.name}"
       }
     end
-  
-  
   end
   
-  
+  def play_song
+  end
   
 end
