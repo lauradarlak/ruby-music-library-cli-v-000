@@ -43,4 +43,6 @@ class MusicLibraryController
     puts "Please enter the name of an artist:"
   end
   
+  artist_name_input = gets.strip
+  
 end
