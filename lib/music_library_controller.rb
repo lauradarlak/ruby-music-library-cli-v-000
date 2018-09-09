@@ -24,7 +24,7 @@ class MusicLibraryController
   
   
   def list_songs
-    Songs.sort
+    Songs.all.sort_by
     
     puts ""
   
