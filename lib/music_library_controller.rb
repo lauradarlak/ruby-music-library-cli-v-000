@@ -24,7 +24,8 @@ class MusicLibraryController
   
   
   def list_songs
-    Songs.all.sort_by(|s| s.name).each_with_index(|a, i| )
+    Songs.all.sort_by(|s| s.name).each_with_index{|a, i|
+      puts "#{i+1} #{a.name} - "
     
     puts ""
   
