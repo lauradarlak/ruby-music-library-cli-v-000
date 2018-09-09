@@ -22,5 +22,10 @@ class MusicLibraryController
     end
   end
   
+  
+  def list_songs
+    counter = 0
+    
+    puts ""
+  
 end
-
